@@ -3,6 +3,12 @@ import os
 import random
 import time 
 
+# pygame window
+WIDTH, HEIGHT = 800, 800
+WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+
+
+
 #Upload assets 
 #Enemies assets
 RedSpaceShip = pygame.image.load(os.path.join("assets", "pixel_ship_red_small.png"))
