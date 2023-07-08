@@ -16,4 +16,6 @@ BlueLaser = pygame.image.load(os.path.join("assets","pixel_laser_blue.png"))
 PlayerPixelShip = pygame.image.load(os.path.join("assets", "pixel_ship_yellow.png"))
 YellowLaser = pygame.image.load(os.path.join("assets","pixel_laser_yellow.png"))
 
+#upload background
+BlackBackground = pygame.image.load(os.path.join("assets","background-black.png"))
 
